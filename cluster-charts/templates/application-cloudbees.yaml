@@ -8,12 +8,14 @@ metadata:
 spec:
   destination:
     namespace: cloudbees
-    server: {{ .Values.cluster }}
-  project: {{ .Values.project }}
+    server: https://kubernetes.default.svc
+  project: default
   source:
     chart: cloudbees-core
     helm:
-      valueFiles:
-      - values.yaml
+      OperationsCenter:
+        Platform: gke
+      nginx-ingress:
+        Enabled: true
     repoURL: https://charts.cloudbees.com/public/cloudbees
     targetRevision: 3.18.0+9e7e10b4b576
