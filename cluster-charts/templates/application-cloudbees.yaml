@@ -15,7 +15,5 @@ spec:
     helm:
       OperationsCenter:
         Platform: gke
-      nginx-ingress:
-        Enabled: true
     repoURL: https://charts.cloudbees.com/public/cloudbees
     targetRevision: 3.18.0+9e7e10b4b576
