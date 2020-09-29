@@ -13,8 +13,9 @@ spec:
   source:
     chart: cloudbees-core
     helm:
-      OperationsCenter:
-        Platform: gke
-        HostName: msuarez.dev.io
+      values: |
+        OperationsCenter:
+          Platform: gke
+          HostName: msuarez.dev.io
     repoURL: https://charts.cloudbees.com/public/cloudbees
     targetRevision: 3.18.0+9e7e10b4b576
