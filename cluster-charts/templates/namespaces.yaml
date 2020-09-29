@@ -6,24 +6,4 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: monitoring
----
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: prod
----
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: dev
----
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: staging
----
-apiVersion: v1
-kind: Namespace
-metadata:
   name: cloudbees
