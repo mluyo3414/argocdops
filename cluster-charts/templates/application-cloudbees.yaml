@@ -18,4 +18,4 @@ spec:
           Platform: gke
           HostName: msuarez.dev.io
     repoURL: https://charts.cloudbees.com/public/cloudbees
-    targetRevision: 3.18.0+9e7e10b4b576
+    targetRevision: 3.20.0+7393ca8fd6d0
