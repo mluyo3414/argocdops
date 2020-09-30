@@ -16,5 +16,14 @@ spec:
       values: |
         rbac:
           create: true
+        defaultBackend:
+          enabled: false
+        controller:
+          ingressClass: nginx
+          scope:
+            enabled: true
+            namespace: cloudbees
+          service:
+            externalTrafficPolicy: Local
     repoURL: https://kubernetes.github.io/ingress-nginx
     targetRevision: 3.3.0
