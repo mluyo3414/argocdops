@@ -11,7 +11,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    chart: ingress-nginx
+    chart: stable/nginx-ingress
     helm:
       values: |
         rbac:
@@ -25,5 +25,5 @@ spec:
             namespace: cloudbees
           service:
             externalTrafficPolicy: Local
-    repoURL: https://kubernetes.github.io/ingress-nginx
+    repoURL: https://kubernetes-charts.storage.googleapis.com
     targetRevision: 3.3.0
