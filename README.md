@@ -7,4 +7,4 @@ To install argo
 
 To install cbci and elastic:
 
-`kubectl apply -f  application-bootstrap.yaml`
+`kubectl apply -f  resources/application-bootstrap.yaml`
