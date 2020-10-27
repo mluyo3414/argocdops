@@ -17,13 +17,4 @@ apiVersion: v1
 kind: Namespace
 metadata:
   name: vault
----
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: jenkins-1
----
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: jenkins-2
+
