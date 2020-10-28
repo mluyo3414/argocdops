@@ -16,4 +16,5 @@ spec:
     repoURL: https://github.com/mluyo3414/argocdops.git
     targetRevision: HEAD
   syncPolicy:
-    automated: {}
+    automated:
+      prune: true

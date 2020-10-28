@@ -19,3 +19,6 @@ spec:
           HostName: msuarez.dev.io
     repoURL: https://charts.cloudbees.com/public/cloudbees
     targetRevision: 3.22.0+7f4108a2fd03
+  syncPolicy:
+    automated:
+      prune: true

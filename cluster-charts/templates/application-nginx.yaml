@@ -27,3 +27,6 @@ spec:
             externalTrafficPolicy: Local
     repoURL: https://kubernetes-charts.storage.googleapis.com
     targetRevision: 1.41.3
+  syncPolicy:
+    automated:
+      prune: true
