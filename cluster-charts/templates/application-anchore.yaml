@@ -9,12 +9,12 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    chart: anchore
+    chart: anchore-enginee
     helm:
       valueFiles:
       - values.yaml
     repoURL: https://charts.anchore.io
-    targetRevision: 0.2.11
+    targetRevision: 1.9.7
   syncPolicy:
     automated:
       prune: true
