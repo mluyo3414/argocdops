@@ -11,7 +11,7 @@ spec:
     server: {{ .Values.cluster }}
   project: {{ .Values.project }}
   source:
-    chart: elasticsearch
+    chart: kibana
     helm:
       valueFiles:
       - values.yaml
