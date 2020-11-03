@@ -3,8 +3,6 @@ kind: Application
 metadata:
   name: anchore
   namespace: anchore
-  finalizers:
-  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     namespace: anchore
