@@ -7,9 +7,9 @@ metadata:
   - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    namespace: kibana
-    server: {{ .Values.cluster }}
-  project: {{ .Values.project }}
+    namespace: elasticsearch
+    server: https://kubernetes.default.svc
+  project: default
   source:
     chart: kibana
     helm:
