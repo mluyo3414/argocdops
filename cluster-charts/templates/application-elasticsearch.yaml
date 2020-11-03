@@ -16,7 +16,7 @@ spec:
       valueFiles:
       - values.yaml
     repoURL: https://helm.elastic.co
-    targetRevision: 7.6.1
+    targetRevision: 7.9.3
   syncPolicy:
     automated:
       prune: true
